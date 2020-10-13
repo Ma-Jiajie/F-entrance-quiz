@@ -9,9 +9,6 @@ class MemberTeamBox extends React.Component {
     }
 
     componentDidMount() {
-        // Promise.all(axios.get("http://localhost:8080/members")).then((res)=>{
-        //     console.log(res);
-        // })
         axios.get(`https://localhost:8080/members`).then((res)=>{
             const result = res;
             this.setState({result});
