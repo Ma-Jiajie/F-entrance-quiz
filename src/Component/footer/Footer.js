@@ -1,9 +1,19 @@
 import React, { Component }  from 'react';
+import ReactDOM from 'react-dom'
 import "./Footer.css"
 
 class Footer extends React.Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
+        // this.State = {
+        //     added: true
+        // }
+    }
+
+    handleClickOnLikeButtonAndOnChangeLikeText = () => {
+        this.setState({
+            added: !this.state.added
+        })
     }
 
     render() {
@@ -23,7 +33,10 @@ class Footer extends React.Component {
                         <li><label>鲁班七号</label></li>
                         <li><label>鲁班七号</label></li>
                         <li><label>鲁班七号</label></li>
-                        <li><label><button className="add-button">+添加</button></label></li>
+                        {/*{ this.state.added ?*/}
+                        {/*    <li><label><button className="add-button" onClick={this.handleClickOnLikeButtonAndOnChangeLikeText}>+添加</button></label></li>  :*/}
+                        {/*    <li><label><text onChange={this.handleClickOnLikeButtonAndOnChangeLikeText}></text></label></li>*/}
+                        {/*}*/}
                     </ul>
                 </div>
             </div>
