@@ -1,5 +1,5 @@
 import React, { Component }  from 'react';
-import "./memberTeamBox.css"
+import "./MemberTeamBox.css"
 
 class MemberTeamBox extends React.Component {
     constructor(props) {
