@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.separate-button {
+    background-color: #ea5455;
+    width: 8rem;
+    height: 40px;
+    margin-top: 10px;
+}

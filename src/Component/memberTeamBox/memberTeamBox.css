@@ -1,0 +1,31 @@
+.nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+}
+
+.team-name{
+    color: white;
+    text-align: center;
+    background-color: #929aab;
+}
+
+.member-list{
+    display: inline;
+    background-color: lightgray;
+}
+
+ul {
+    margin-top: 30px;
+}
+
+label {
+    background-color: #eeeeee;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+li {
+    display: inline;
+}
