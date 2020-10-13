@@ -4,6 +4,7 @@ import MemberTeamBox from "../memberTeamBox/MemberTeamBox";
 class MemberTable extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {};
     }
 
     render() {

@@ -1,9 +1,22 @@
 import React, { Component }  from 'react';
 import "./MemberTeamBox.css"
+import axios from "axios";
 
 class MemberTeamBox extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {};
+    }
+
+    componentDidMount() {
+        // Promise.all(axios.get("http://localhost:8080/members")).then((res)=>{
+        //     console.log(res);
+        // })
+        axios.get(`https://localhost:8080/members`).then((res)=>{
+            const result = res;
+            this.setState({result});
+        })
+
     }
 
     render() {
