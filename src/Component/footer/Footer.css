@@ -1,42 +1,43 @@
 .nav {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 40px;
 }
 
 .header {
-    justify-content: space-between;
-    padding-right: 30px;
-    padding-left: 30px;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
-.team-name{
-    color: white;
-    text-align: center;
-    background-color: #929aab;
+.team-name {
+  color: white;
+  text-align: center;
+  background-color: #929aab;
 }
 
-.member-list{
-    display: inline;
-    background-color: lightgray;
+.member-list {
+  display: inline;
+  background-color: lightgray;
 }
 
+/* TODO 顶层不要使用标签选择器 */
 ul {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 label {
-    background-color: #eeeeee;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-right: 8px;
+  background-color: #eeeeee;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 8px;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
 .add-button {
-    border:none;
-    height: 2px;
+  border: none;
+  height: 2px;
 }
